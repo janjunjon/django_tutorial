@@ -26,3 +26,7 @@
 `import pymysql`  
 `pymysql.install_as_MySQLdb()`  
 
+* run django webserver.  
+`python3 manage.py runserver`  
+
+

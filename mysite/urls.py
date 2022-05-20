@@ -18,5 +18,6 @@ from django.urls import include, path
 
 urlpatterns = [
     path('polls/', include('polls.urls')),
+    path('webhook/', include('webhook.urls')),
     path('admin/', admin.site.urls),
 ]
